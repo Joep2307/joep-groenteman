@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #16438B;
+}
+
+.flex{
+  display: flex;
+  justify-content: right;
+  padding: 20px;
+  }
+
+/* Banner */
+.hero-image {
+width: 100%;
+height: 50%;
+}
+
+ /* Fonts */
+.title{
+  margin-top: 50px;
+}
+
+div :left{
+  width: 50%;
+}
+
+div :right{
+  width: 50%;
+}
+h1{
+color: white;
+text-align: center;
+padding: 20px;
+}
+
+h2{
+color: whitesmoke;
+text-align: left;
+padding: 20px;
+}
+
+h3{
+color: whitesmoke;
+text-align: left;
+padding: 20px;
+}
+
+/* nav bar */
+ul {
+  position: fixed;
+  display: flex;
+  list-style-type: none;
+  background-color: #010860
+}
+
+li {
+  float: left;
+  box-shadow: 2px 2px 2px black;
+}
+
+li a {
+  display: flex;
+  color: white;
+  padding: 14px ;
+  text-decoration: none;
+  box-shadow: 2px 2px 2px black;
+  text-shadow: 2px 2px black;
+}
+
+li a:hover {
+  background-color: #010528;
+}
+
+a {
+  display: flex;
+  padding: 8px;
+  background-color: #010860;
+}
+p {
+    font-family: verdana;
+    font-size: 20px;
+   
+  }
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+
+
+/* Music table */
+#music{
+  border-collapse: collapse;
+  width: 200%;
+  text-align: left;
+}
+
+#music td, #music th{
+  border: 3px solid #ddd;
+  color: whitesmoke;
+  padding: 3px;
+}
+#music th {
+  text-align: left;
+  background-color:  #010860;;
+  color: white;
+}
+
+
+
+
