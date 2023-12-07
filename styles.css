@@ -6,9 +6,13 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #E9D2C0;
+    background-color: #eeece3;
 }
 
+main{
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
 .flex {
     display: flex;
     justify-content: right;
@@ -16,19 +20,7 @@ body {
 }
 
 
-div.left{
-    position: absolute;
-    width: 10vw;
-    margin: 50%;
-    margin-top: 50px;
-}
 
-div.right{
-    position: absolute;
-    width: 50%;
-    margin: 15px;
-    margin-top: 50px;
-}
 
 section{
     position: relative;
@@ -71,11 +63,10 @@ nav ul {
     display: flex;
     list-style-type: none;    
     justify-content: space-evenly;
+    background-color: #318EAD;
 }
 
-li {    
-    box-shadow: 2px 2px 2px black;
-}
+
 
 li a {
     color: white;
@@ -109,7 +100,7 @@ a:visited {
 /* Music table */
 #music{
     border-collapse: collapse;
-    width: 100%;
+    width: 100vw;
     text-align: left;
 }
 
