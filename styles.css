@@ -6,32 +6,54 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #eeece3;
+    background-color: #A8DDEE;
 }
-
-main{
-    padding-left: 1vw;
-    padding-right: 1vw;
-}
-.flex {
-    display: flex;
-    justify-content: right;
-    padding: 20px;
-}
-
 
 
 
 section{
     position: relative;
+}
+
+footer{
+    position: relative;
     width: 100%;
-    height: 100%;
+    height: 5rem;
+    background-color: #2B7A94;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+div{
+    width: 50%;
+}
+
+.vinly{
+    width: 5.5vw;
+    height: 10vh;
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+   
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
 }
 
 /* Banner */
 .hero-image {
     width: 100%;
-    height: 20%;
+    height: 95vh;
 }
 
  /* Fonts */
@@ -40,22 +62,82 @@ section{
 }
 
 
+
+
+
+
+
+
+
+p{
+    padding: 1.5rem;
+    color: white;
+    background-color: #2B7A94;
+}
+
 h1{
-    color: black;
+    color: white;
     text-align: center;
-    padding: 20px;
+    padding: 1rem;
+    margin: 1rem;
+    margin-left: 30rem;
+    margin-right: 30rem;
+    border-radius: 1.5rem;
+    background-color: #2B7A94;
 }
 
 h2{
-    color: black;
+    color: white;
     text-align: left;
-    padding: 20px;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+    background-color: #2B7A94;
+}
+
+.left_text{
+    border-bottom-right-radius: 1rem;
+}
+
+.right_text{
+    border-bottom-left-radius: 1rem;
+}
+
+.center_text{
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    width: 80vw;
+}
+
+.left_title{
+    border-top-right-radius: 1rem;
+}
+
+.right_title{
+    border-top-left-radius: 1rem;
+}
+
+.center_title{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    width: 80vw;
 }
 
 h3{
     color: black;
     text-align: left;
-    padding: 20px;
+    padding: 1.5rem;
+}
+
+img{
+    height: 90vh;
+    width: 100%;
+}
+
+.image{
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 2rem;
 }
 
 /* nav bar */
@@ -63,14 +145,13 @@ nav ul {
     display: flex;
     list-style-type: none;    
     justify-content: space-evenly;
-    background-color: #318EAD;
+    background-color: #2B7A94;
 }
-
-
 
 li a {
     color: white;
-    padding: 14px ;
+    padding-bottom: 15px;
+    padding-top: 15px;
     text-decoration: none;
 }
 
@@ -81,8 +162,9 @@ li a:hover {
 a {
     display: flex;
     padding: 8px;
-    background-color: #318EAD;
+    background-color: #2B7A94;
 }
+
 p {
     font-family: verdana;
     font-size: 20px;   
@@ -96,16 +178,23 @@ a:visited {
     text-decoration: none;
 }
 
+.logo{
+    height: 2.5rem;
+    justify-content: center;
+}
 
 /* Music table */
 #music{
     border-collapse: collapse;
-    width: 100vw;
     text-align: left;
+    width: 100%;
+    margin: 2rem;
+    padding-right: 1rem;
 }
 
 #music td, #music th{
-    border: 3px solid #ddd;
+    margin: 2rem;
+    border: 3px solid darkgray;
     color: black;
 }
 
