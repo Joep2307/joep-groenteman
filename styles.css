@@ -30,6 +30,7 @@ div {
     width: 50%;
 }
 
+/* Aninamtion */
 .vinly {
     width: 2.8vw;
     height: 5vh;
@@ -104,6 +105,7 @@ h2 {
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     width: 80vw;
+
 }
 
 .left_title {
@@ -148,19 +150,19 @@ nav ul {
 
 li a {
     color: white;
-    padding-bottom: 15px;
-    padding-top: 15px;
-    padding: 25px;
+    padding-bottom: 2vh;
+    padding: 0.5vh;
     text-decoration: none;
+    vertical-align: sub;
 }
+
 
 li a:hover {
     background-color: #41a6c7;
 }
 
-a {
+nav a {
     display: flex;
-    padding: 15px;
     background-color: #2B7A94;
 }
 
