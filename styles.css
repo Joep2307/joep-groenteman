@@ -12,7 +12,7 @@ body {
 section {
     position: relative;
 }
-
+/* 
 article, :first-of-type{
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
@@ -21,7 +21,8 @@ article, :first-of-type{
 article, :last-of-type{
     border-top-left-radius: 1rem;
     border-top-left-radius: 1rem;
-}
+} */
+
 footer {
     margin-top: 2vh;
     position: relative;
