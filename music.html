@@ -12,9 +12,9 @@
     <header>
         <nav>
             <ul>
-                <li><a href="home.html">HOME</a></li>
+                <li><a href="index.html">HOME</a></li>
                 <li><a href="bio.html">BIOGRAPHY</a></li>
-                <li><a href="home.html"><img class="logo" src="images/logo_elthon_john.png" alt="De leter E"></a></li>
+                <li><a href="index.html"><img src="images/logo_elthon_john.png" alt="De leter E"></a></li>
                 <li><a href="music.html">MUSIC</a></li>
                 <li><a href="rocketman.html">ROCKETMAN</a></li>
             </ul>
@@ -22,37 +22,39 @@
     </header>
 
     <main>
-        <section class="flex">
-            <h1>
-                <img class="vinly" src="images/vinly_no_background.png" alt="LP plaat">
-                Music
-                <img class="vinly" src="images/vinly_no_background.png" alt="LP plaat">
-            </h1>
+        <section>
+            <ul class="flex"><!--Second child ul moet achtergrond krijgen en alles naast elkaar-->
+                <li><img src="images/vinly_no_background.png" alt="LP plaat"></li>
+                <li><h1>Music</h1></li>
+                <li><img src="images/vinly_no_background.png" alt="LP plaat"></li>
+            </ul>
         </section>
         <section class="flex">
-            <div>
-                <h2 class="left_title">Elthons music carier</h2>
-                <p class="left_text">
+            <article><!--First child artivel moet achtergrond links tegen rand. rechts border radius-->
+                <h2>Elthons music carier</h2>
+                <p>
                     Sir Elton Hercules John, born Reginald Kenneth Dwight on March 25, 1947, in Pinner, Middlesex,
                     England, is an iconic British singer, songwriter, and pianist. Renowned for his flamboyant stage
                     presence, distinctive voice, and prolific songwriting, Elton John has left an indelible mark on the
                     music industry.
-                    <br><br>
+                </p>
+                <p>
                     Elton John's musical journey began at an early age, displaying an extraordinary talent for the
                     piano. He attended the Royal Academy of Music in London, where he honed his skills and developed a
                     deep appreciation for a wide range of musical genres. In the late 1960s, he formed a songwriting
                     partnership with lyricist Bernie Taupin, a collaboration that would become one of the most
                     successful and enduring in the history of popular music.
-                    <br><br>
+                </p>
+                <p>
                     His self-titled album, "Elton John," was released in 1970 and marked the beginning of a meteoric
                     rise to fame. Over the next decade, Elton John produced a string of hit albums and singles,
                     including "Your Song," "Rocket Man," "Bennie and the Jets," and "Candle in the Wind." His flamboyant
                     stage costumes and energetic performances also contributed to his rapid ascent to international
                     stardom.
                 </p>
-            </div>
-            <div>
-                <table id="music">
+            </article>
+            <article>
+                <table>
                     <tr>
                         <th>Number</th>
                         <th>Song</th>
@@ -159,7 +161,7 @@
                         <td>143.94</td>
                     </tr>
                 </table>
-            </div>
+            </article>
         </section>
     </main>
     <footer>

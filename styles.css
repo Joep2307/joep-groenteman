@@ -13,6 +13,15 @@ section {
     position: relative;
 }
 
+article, :first-of-type{
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+article, :last-of-type{
+    border-top-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
 footer {
     margin-top: 2vh;
     position: relative;
@@ -21,49 +30,21 @@ footer {
     background-color: #2B7A94;
 }
 
-.flex {
-    display: flex;
-    justify-content: center;
+p {
+    font-family: verdana;
+    font-size: 20px;
+    background-color: #2B7A94;
 }
 
 div {
     width: 50%;
 }
 
-/* Aninamtion */
-.vinly {
-    width: 2.8vw;
-    height: 5vh;
-    animation-name: spin;
-    animation-duration: 5000ms;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
 
-@keyframes spin {
-    from {
-        transform: rotate(0deg);
-    }
 
-    to {
-        transform: rotate(360deg);
-    }
-}
-
-.vinly_title {
-    display: flex;
-    justify-content: center;
-}
-
-/* Banner */
-.hero-image {
+nav img{
     width: 100%;
     height: 95vh;
-}
-
-/* Fonts */
-.title {
-    margin-top: 50px;
 }
 
 p {
@@ -90,37 +71,9 @@ h2 {
     padding-top: 1.5rem;
     padding-left: 1.5rem;
     background-color: #2B7A94;
-
 }
 
-.left_text {
-    border-bottom-right-radius: 1rem;
-}
 
-.right_text {
-    border-bottom-left-radius: 1rem;
-}
-
-.center_text {
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-    width: 80vw;
-
-}
-
-.left_title {
-    border-top-right-radius: 1rem;
-}
-
-.right_title {
-    border-top-left-radius: 1rem;
-}
-
-.center_title {
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-    width: 80vw;
-}
 
 h3 {
     color: black;
@@ -133,7 +86,7 @@ img {
     width: 100%;
 }
 
-.image {
+div img {
     padding-bottom: 1rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -146,6 +99,7 @@ nav ul {
     list-style-type: none;
     justify-content: space-evenly;
     background-color: #2B7A94;
+    align-items: center;
 }
 
 li a {
@@ -156,7 +110,6 @@ li a {
     vertical-align: sub;
 }
 
-
 li a:hover {
     background-color: #41a6c7;
 }
@@ -166,26 +119,17 @@ nav a {
     background-color: #2B7A94;
 }
 
-p {
-    font-family: verdana;
-    font-size: 20px;
-}
-
-a:link {
+a:link, :visited {
     text-decoration: none;
 }
 
-a:visited {
-    text-decoration: none;
-}
-
-.logo {
+nav li img {
     height: 2.5rem;
     justify-content: center;
 }
 
 /* Music table */
-#music {
+table{
     border-collapse: collapse;
     text-align: left;
     width: 90%;
@@ -193,15 +137,41 @@ a:visited {
     padding-right: 1rem;
 }
 
-#music td,
-#music th {
+table td,
+table th {
     margin: 2rem;
     border: 3px solid black;
     color: black;
 }
 
-#music th {
+table th {
     text-align: left;
     background-color: #318EAD;
     color: black;
 }
+
+/* Aninamtion */
+section li img {
+    width: 2.8vw;
+    height: 5vh;
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
